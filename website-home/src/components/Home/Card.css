@@ -1,0 +1,43 @@
+
+
+
+/* Card.css */
+
+/* .div-card {
+   
+    display : flex
+  }
+   */
+  .card h3 {
+    margin: 0;
+  }
+
+  .div-card-div {
+    width: 300px;
+    border-radius:25px;
+    background-color: pink;
+    
+  }
+
+  .div-card1{
+    /* width: 50px; */
+    height: 350px;
+    border-radius:25px;
+    /* border-radius: 200px 200px 30px 30px / 200px 200px 30px 30px */
+    /* box-shadow: 15px 20px #0f0f0f; */
+  }
+  
+  .card p {
+    margin: 8px 0;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  
+  .div-card-div:hover {
+  transform: scale(1.4);
+}
