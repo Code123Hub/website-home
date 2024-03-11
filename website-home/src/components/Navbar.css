@@ -79,6 +79,7 @@ button{
   cursor: pointer;
   border-radius: 30px !important;
   border: 1px solid yellow;
+  margin-right: 12px !important;
  
 }
 

@@ -88,7 +88,7 @@ const Footer = () => {
                     </div> */}
                 </div>
                 <div className="p-2 text-left  text-gray-500 text-sm  font-semibold flex justify-between">
-                    <p >COPYRIGHT © 2020 - The IPR Gorilla - ALL RIGHTS RESERVED.
+                    <p >COPYRIGHT © 2024 - The IPR Gorilla - ALL RIGHTS RESERVED.
                     </p>
                     <div className='item-right space-x-1' >
                         <FontAwesomeIcon icon={faLinkedin} />

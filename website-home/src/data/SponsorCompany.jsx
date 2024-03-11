@@ -10,88 +10,50 @@ import w4 from '../assets/comapnylogo/w4.webp';
 export const sponsorCompany = [
     {
      
-        logo:{w1},
-      comapnyName:'Udemy',
+      logo: w1,
+      comapnyName:'Women IP World',
       location: 'London, UK',
       
     },
     {
         
-        logo:{w2},
-      comapnyName:'Stripe',
+      logo: w2,
+      comapnyName:'Media 7',
       location: 'California',
       
     },
-    {
-      
-        logo:{w3},
-      comapnyName:'Flipkart',
-      location: 'Mumbai, India',
-      
-    },
-    {
-       
-        logo:{w4},
-        comapnyName:'Meesho',
-        location: 'Amsterdam, Europe',
-        
-      },
+   
       {
       
         
-        logo:{w1},
-        comapnyName:'Figma',
+        logo: w3,
+        comapnyName:'DAR',
         location: 'London, Uk',
-        availablePositions: "21"
-      },
-       {
        
+      },
+      
+     
+      {
         
-        logo:{w1},
-        comapnyName:'Godrej',
+        logo: w4,
+        comapnyName:'Women IP World',
         location: 'London, UK',
         
       },
       {
+      
         
-        logo:{w1},
-        comapnyName:'LinkedIn',
-        location: 'London, UK',
-        
+        logo: w3,
+        comapnyName:'DAR',
+        location: 'London, Uk',
       },
+      
+     
       {
         
-        logo:{w1},
-        comapnyName:'Razorpay',
-        location: 'London, UK',
-        
-      },
-      {
-       
-        logo:{w1},
-        comapnyName:'Figma',
-        location: 'London, UK',
-        
-      },
-      {
-        
-        logo:{w1},
-        comapnyName:'BCG',
-        location: 'London, UK',
-        
-      },
-      {
-        
-        logo:{w1},
-        comapnyName:'Atlassian',
-        location: 'London, UK',
-        
-      },
-      {
-        
-        logo:{w1},
-        comapnyName:'Drpbox',
-        location: 'London, UK',
+        logo: w4,
+        comapnyName:'Media 7',
+        location: 'California',
         
       },
   ];

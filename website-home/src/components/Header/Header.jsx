@@ -25,20 +25,20 @@ const Header = () => {
     };
   }, []);
 
-  useEffect(() => {
-    const getDataFromAPI = async () => {
-      try {
-        const response = await fetch('http://dummy.restapiexample.com/api/v1/employees');
-        const data = await response.json();
-        const employeeNames = data.data.map((employee) => employee.employee_name);
-        setMyOptions(employeeNames);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    };
+  // useEffect(() => {
+  //   const getDataFromAPI = async () => {
+  //     try {
+  //       const response = await fetch('http://dummy.restapiexample.com/api/v1/employees');
+  //       const data = await response.json();
+  //       const employeeNames = data.data.map((employee) => employee.employee_name);
+  //       setMyOptions(employeeNames);
+  //     } catch (error) {
+  //       console.error('Error fetching data:', error);
+  //     }
+  //   };
 
-    getDataFromAPI();
-  }, []); // Empty dependency array ensures the effect runs only once on mount
+  //   getDataFromAPI();
+  // }, []); // Empty dependency array ensures the effect runs only once on mount
 
   return (
     <div className={`header ${isHeaderVisible ? 'header-visible' : 'header-hidden'}`}>
@@ -49,7 +49,7 @@ const Header = () => {
           freeSolo
           autoComplete
           autoHighlight
-          options={myOptions}
+          // options={myOptions}
           renderInput={(params) => (
             <TextField {...params} variant="outlined" label="Search" className="searchbar-textfield" />
           )}

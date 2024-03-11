@@ -12,7 +12,8 @@ import { faBars, faSearch } from "@fortawesome/free-solid-svg-icons";
 import { faYoutubeSquare } from "@fortawesome/free-brands-svg-icons";
 import YT from "react-youtube";
 import Footer from "../Footer/Footer";
-import Sponsors from "./Sponsors";
+import Sponsors from "./Sponsors"
+
 
 function Home() {
   // const [isHeaderVisible, setIsHeaderVisible] = useState(true);
@@ -56,7 +57,7 @@ function Home() {
       </div>
 
       <div>
-        <h1 className="px-12 text-amber-600 font-bold text-lg mt-20 text-center text-3xl">
+        <h1 className="text-amber-600 font-bold mt-20 text-center text-3xl">
           Our Events and Conferences
         </h1>
 
@@ -119,13 +120,13 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="px-12">
-        <div className="bg-amber-600 flex items-center justify-between ">
+      <div className="px-12 mt-10 ">
+        <div className="bg-amber-600 flex items-center justify-between rounded-2xl">
           <p className="text-white text-2xl p-28 font-bold text-center">
             Subscribe for Latest Updates regarding Events and Conferences
           </p>
           <div className="flex items-center">
-            <button className="p-2 bg-black rounded-lg text-white mr-20">
+            <button className="p-2 bg-black rounded-lg text-white ">
               Sign Up Now
             </button>
           </div>
@@ -139,9 +140,9 @@ function Home() {
           Some of the companies who helped us from decades to manage events and
           conferences.
         </p>
-        {/* <div>
+        <div style={{marginTop:'40px', marginBottom:'50px'}}>
           <Sponsors />
-        </div> */}
+        </div>
       </div>
       <div>
         <Footer />
